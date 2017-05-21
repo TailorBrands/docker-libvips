@@ -1,6 +1,7 @@
 FROM tailor/docker-libvips:8.4.6
 LABEL maintainer "guy@tailorbrands.com"
 
+RUN apt-get update && DEBIAN_FRONTEND=noninteractive apt-get install -y curl
 RUN curl -sL https://deb.nodesource.com/setup_7.x | bash - && apt-get install -y nodejs
 
 ENV YARN_VERSION 0.24.4
