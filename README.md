@@ -6,7 +6,7 @@ We've also included a Node.js 7.10.0 image.
 ## Supported tags
 
 - [`8.4.6`](https://github.com/TailorBrands/docker-libvips/8.4.6/Dockerfile)
-- [`8.5.5`, `latest`](https://github.com/TailorBrands/docker-libvips/8.5.5/Dockerfile)
+- [`8.5.8`, `latest`](https://github.com/TailorBrands/docker-libvips/8.5.8/Dockerfile)
 - [`node-8.4`](https://github.com/TailorBrands/docker-libvips/node/8.4/Dockerfile)
 - [`node-8.5`](https://github.com/TailorBrands/docker-libvips/node/8.5/Dockerfile)
 
