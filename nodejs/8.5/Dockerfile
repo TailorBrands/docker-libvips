@@ -1,10 +1,10 @@
-FROM tailor/docker-libvips:8.5.8
+FROM tailor/docker-libvips:8.5.9
 LABEL maintainer "guy@tailorbrands.com"
 
 RUN apt-get update && DEBIAN_FRONTEND=noninteractive apt-get install -y curl
-RUN curl -sL https://deb.nodesource.com/setup_7.x | bash - && apt-get install -y nodejs
+RUN curl -sL https://deb.nodesource.com/setup_8.x | bash - && apt-get install -y nodejs
 
-ENV YARN_VERSION 0.24.4
+ENV YARN_VERSION 1.3.2
 
 RUN set -ex \
   && for key in \

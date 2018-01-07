@@ -1,4 +1,4 @@
-FROM tailor/docker-libvips:8.4.6
+FROM tailor/docker-libvips:8.6.1
 LABEL maintainer "guy@tailorbrands.com"
 
 RUN apt-get update && DEBIAN_FRONTEND=noninteractive apt-get install -y curl
