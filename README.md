@@ -11,6 +11,7 @@ We've also included a Node.js 7.10.0 image.
 - [`node-8.4`](https://github.com/TailorBrands/docker-libvips/node/8.4/Dockerfile)
 - [`node-8.5`](https://github.com/TailorBrands/docker-libvips/node/8.5/Dockerfile)
 - [`node-8.6`](https://github.com/TailorBrands/docker-libvips/node/8.6/Dockerfile)
+- [`node-10.9`](https://github.com/TailorBrands/docker-libvips/node/10.9/Dockerfile)
 
 ## How to use
 
